@@ -7,3 +7,6 @@ const person = {
 }
 console.log(person.job)
 console.log(person['friends'])
+
+const answerUser = prompt("select between name, job, family, hasDrivingLicence, friends");
+console.log(person[answerUser])
