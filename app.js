@@ -5,8 +5,12 @@ const person = {
     hasDrivingLicence: true,
     friends: ['bahar', 'hadis', 'eli']
 }
-console.log(person.job)
+/*console.log(person.job)
 console.log(person['friends'])
 
 const answerUser = prompt("select between name, job, family, hasDrivingLicence, friends");
-console.log(person[answerUser])
+console.log(person[answerUser])*/
+
+person.birthYear = 1990
+person['instagramId'] = 'marzi.gh12'
+console.log(person)
