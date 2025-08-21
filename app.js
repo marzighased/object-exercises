@@ -32,4 +32,16 @@ person['family'] = 'ghasedi'
 
 delete person.country;
 delete person.city;
-console.log(person)
+//console.log(person)
+
+const company = {
+    name: "Tech Group",
+    employees: ["Tom","Mark"],
+    address: {
+        city: "Toronto",
+        country: "Canada"
+    },
+};
+console.log(company.address.city)
+
+console.log(company.address?.city || 'not exist');
