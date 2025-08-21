@@ -22,6 +22,14 @@ const newProperties = {
 
 for (let key in newProperties) {
     person[key] = newProperties[key]
-    console.log(key)
+    //console.log(key)
 }
+//console.log(person)
+
+person.city = 'Honnover'
+person['family'] = 'ghasedi'
+//console.log(person)
+
+delete person.country;
+delete person.city;
 console.log(person)
