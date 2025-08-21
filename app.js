@@ -42,6 +42,15 @@ const company = {
         country: "Canada"
     },
 };
-console.log(company.address.city)
+//console.log(company.address.city)
 
-console.log(company.address?.city || 'not exist');
+//console.log(company.address?.city || 'not exist');
+
+
+const contact = {
+    phone: '123-45-89',
+    email:'mo@gmail.com'
+}
+
+const newPerson = {...person,country:'germany', ...contact}
+console.log("newPerson", newPerson)
