@@ -14,3 +14,14 @@ console.log(person[answerUser])*/
 person.birthYear = 1990
 person['instagramId'] = 'marzi.gh12'
 console.log(person)
+
+const newProperties = {
+    city: 'Magdeburg',
+    country: 'Germany'
+}
+
+for (let key in newProperties) {
+    person[key] = newProperties[key]
+    console.log(key)
+}
+console.log(person)
