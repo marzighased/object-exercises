@@ -54,3 +54,6 @@ const contact = {
 
 const newPerson = {...person,country:'germany', ...contact}
 console.log("newPerson", newPerson)
+
+const { family, phone, country } = newPerson;
+console.log(family,phone,country)
